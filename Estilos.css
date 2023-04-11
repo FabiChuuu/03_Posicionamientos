@@ -1,0 +1,49 @@
+.cuadrado-morado{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.cuadrado-relativo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+.cuadrado-absoluto {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.cuadrado-flotante{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: chartreuse;
+    float: right;
+}
+
+.cuadrado-inexistente{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: chartreuse;
+    visibility: hidden;
+}
+
+.cuadrado-invisible{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: chartreuse;
+    display: none;
+}
